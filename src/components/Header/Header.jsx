@@ -1,18 +1,14 @@
 import React from 'react';
 
-export default function Header({ todos }) {
+export default function Header({ filters, filter, onFilterChange }) {
   return (
     <header>
       <ul>
-        <li>
-          <button>all</button>
-        </li>
-        <li>
-          <button>active</button>
-        </li>
-        <li>
-          <button>completed</button>
-        </li>
+        {filters.map((value, index) => (
+          <li key={index}>
+            <button onClick={() => onFilterChange(value)}>{value}</button>
+          </li>
+        ))}
       </ul>
     </header>
   );
