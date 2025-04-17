@@ -1,4 +1,4 @@
-[![Live Site](https://img.shields.io/badge/Live_Site-ianh0123.com-green?logo=githubpages&logoColor=white)](https://charming-sorbet-12187a.netlify.app)
+[![Live Site](https://img.shields.io/badge/Live_Site-Netlify-green?logo=githubpages&logoColor=white)](https://charming-sorbet-12187a.netlify.app)
 
 # Todo App
 
