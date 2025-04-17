@@ -2,17 +2,32 @@
 
 # Todo App
 
-A simple Todo app built with React, featuring continuous deployment via Netlify.
+A clean and responsive Todo application built with React, featuring persistent local state and automatic deployment via Netlify.
 
-## Features
+## ✨ Features
 
-- Add, edit, and delete tasks
-- Mark tasks as completed
-- Persistent storage using local state
-- Responsive design for mobile and desktop
-- Automatic deployment with Netlify
+- ✅ Add, edit, and delete tasks
+- 📌 Mark tasks as completed
+- 💾 Persistent data with browser local storage
+- 🌙 Light/Dark mode toggle
+- 📱 Fully responsive UI for mobile and desktop
+- 🚀 Continuous deployment with Netlify
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend:** React
+- **State Management:** React `useState`, `useEffect`
+- **Styling:** CSS Modules
+- **Dark Mode:** Custom context using `createContext` and localStorage
 - **Deployment:** Netlify
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── AddTodo/
+│   ├── Header/
+│   ├── Todo/
+│   ├── TodoList/
+├── context/
+│   └── DarkModeContext.jsx
